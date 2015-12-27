@@ -1,0 +1,62 @@
+@import "glyphicon-maboroshi";
+@import "bootstrap";
+
+@include media-breakpoint-down(xs) {
+  .nav {
+    position: absolute;
+    top: 30px;
+    right: 0;
+  }
+}
+.header {
+  padding: 30px 0 20px;
+}
+.hero {
+  margin: 20px 0;
+  img {
+    width: 100%;
+  }
+}
+
+.top-item {
+  text-align: center;
+  img {
+    width: 50%;
+    border-radius: 50%;
+    @include media-breakpoint-down(xs) {
+      float: left;
+      width: 80px;
+      margin-right: 10px;
+    }
+  }
+}
+
+.heading {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+doctype html
+html(lang=config.lang)
+  head
+    meta
+    title= config.title
+    link(rel="stylesheet", href="/assets/css/style.css")
+
+  body
+    .container 
+      .header
+        h1 Demo Site
+
+      nav.navbar-light.nav.clearfix
+        button.navbar-toggler.hidden-sm-up(type='button', data-toggle='collapse', data-target='#navbar-header', aria-controls='navbar-header') ☰
+        #navbar-header.collapse.navbar-toggleable-xs
+          ul.nav.navbar-nav
+            li.nav-item.active
+              a.nav-link(href='#')
+                | Home 
+                span.sr-only (current)
+            li.nav-item
+              a.nav-link(href='#') Features
+            li.nav-item
+              a.nav-link(href='#') Pricing
+            li.nav-item
+              a.nav-link(href='#') About
+
+      .hero
+        img(src="/assets/images/bsHIRO92_tukinomieruoka.jpg", alt="")
+
+      h2.heading Markup
+      .row
+        .col-sm-4.top-item.clearfix
+          img(src="/assets/images/mashiko2015.jpg", alt="")
+          .top-block
+            h3 益子 貴寛
+            p
+              | 株式会社サイバーガーデン
+              br
+              | 代表取締役
+
+        .col-sm-4.top-item.clearfix
+          img(src="/assets/images/akihiro_oyamada120.jpg", alt="")
+          .top-block
+            h3 小山田 晃浩
+            p
+              | 株式会社ピクセルグリッド
+              br
+              | フロントエンドエンジニア
+
+        .col-sm-4.top-item.clearfix
+          img(src="/assets/images/kubotomoki.jpg", alt="")
+          .top-block
+            h3 久保 知己
+            p
+              | 株式会社まぼろし
+              br
+              | マークアップエンジニア
+
+
+      h2.heading Glyphicon
+      p aiファイルからアイコンをSVGで書き出し、アイコンフォント化しています。
+        br
+        a(href="/_glyphicon-maboroshi_sample.html")
+          | 生成したアイコンフォント一覧
+
+    footer.footer
+      .container
+        p
+          small All rights reserved.
+
+    script(src="/assets/js/vender.js")
+

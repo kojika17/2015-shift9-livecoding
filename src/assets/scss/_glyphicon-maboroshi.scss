@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "glyphicon-maboroshi";
+  src: url('/assets/fonts/glyphicon-maboroshi.eot');
+  src: url('/assets/fonts/glyphicon-maboroshi.eot?#iefix') format('eot'),
+  url('/assets/fonts/glyphicon-maboroshi.woff') format('woff'),
+  url('/assets/fonts/glyphicon-maboroshi.ttf') format('truetype'),
+  url('/assets/fonts/glyphicon-maboroshi.svg#glyphicon-maboroshi') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.glyphicon:before {
+  display: inline-block;
+  font-family: "glyphicon-maboroshi";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-lg {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.glyphicon-2x { font-size: 2em; }
+.glyphicon-3x { font-size: 3em; }
+.glyphicon-4x { font-size: 4em; }
+.glyphicon-5x { font-size: 5em; }
+.glyphicon-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+.glyphicon-i_arrow-left:before { content: "\EA01" }
+.glyphicon-i_arrow-right:before { content: "\EA02" }
+.glyphicon-i_mail:before { content: "\EA03" }
