@@ -1,0 +1,5 @@
+# Hidden File
+.DS_Store
+
+# Node Plugin
+node_modules
